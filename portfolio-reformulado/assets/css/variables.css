@@ -1,0 +1,17 @@
+:root{
+  --bg:#080D18;
+  --surface:#111C2D;
+  --surface-2:#142238;
+  --blue:#2589F5;
+  --cyan:#58C7FF;
+  --text:#F2F5FA;
+  --muted:#9BAAC0;
+  --line:rgba(151,177,211,.15);
+  --gradient:linear-gradient(105deg,#F2F5FA 8%,#8BCBFF 48%,#58C7FF 100%);
+  --gradient-blue:linear-gradient(110deg,#2589F5,#58C7FF);
+  --font-sans:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --font-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,monospace;
+  --container:1160px;
+  --radius:18px;
+  --shadow:0 24px 80px rgba(0,0,0,.28);
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jgdomingos.github.io/portfolio/sitemap.xml
