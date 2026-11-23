@@ -1,100 +1,485 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="João Guilherme — estudante de Engenharia de Software e desenvolvedor web. Conheça projetos, experiências e tecnologias.">
-<meta name="theme-color" content="#080D18"><meta name="author" content="João Guilherme Silva Domingos">
-<meta property="og:type" content="website"><meta property="og:title" content="João Guilherme | Software & Web Developer">
-<meta property="og:description" content="Projetos, experiências e soluções desenvolvidas com tecnologia.">
-<meta property="og:image" content="https://raw.githubusercontent.com/jgdomingos/portfolio/master/assets/images/Joao-og-image.png">
-<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/css/variables.css"><link rel="stylesheet" href="assets/css/main.css">
-<title>João Guilherme | Desenvolvedor</title>
-</head>
-<body>
-    <a class="skip-link" href="#main">Pular para o conteúdo</a>
-    <header class="site-header">
-        <nav class="nav container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="description" content="João Guilherme — estudante de Engenharia de Software e desenvolvedor web. Conheça projetos, experiências e tecnologias.">
+        <meta name="theme-color" content="#080D18">
+        <meta name="author" content="João Guilherme Silva Domingos">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="João Guilherme | Software & Web Developer">
+        <meta property="og:description" content="Projetos, experiências e soluções desenvolvidas com tecnologia.">
+        <meta property="og:image" content="https://raw.githubusercontent.com/jgdomingos/portfolio/master/assets/images/Joao-og-image.png">
 
-        <a class="brand" href="index.html"><span class="brackets">&lt;</span>JG<span class="brackets">/&gt;</span> <small>software.dev</small></a>
+        <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+        <link rel="stylesheet" href="assets/css/variables.css">
+        <link rel="stylesheet" href="assets/css/main.css">
 
-            <ul class="nav-links">
-                <li><a href="#about" data-pt="Sobre" data-en="About">Sobre</a></li><li><a href="#skills" data-pt="Stack" data-en="Stack">Stack</a></li>
-                <li><a href="#projects" data-pt="Projetos" data-en="Projects">Projetos</a></li><li><a href="experiences.html" data-pt="Experiência" data-en="Experience">Experiência</a></li>
-                <li><a href="educations.html" data-pt="Formação" data-en="Education">Formação</a></li><li><a href="#contact" data-pt="Contato" data-en="Contact">Contato</a></li>
-            </ul>
+        <title>João Guilherme | Desenvolvedor</title>
+    </head>
 
-        <div class="nav-actions">
-            <button class="lang-toggle" type="button" aria-label="Alterar idioma">PT</button>
-            <a class="icon-link" href="https://github.com/jgdomingos" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-            <a class="icon-link" href="https://www.linkedin.com/in/jgsdomingos/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button></div>
-        </nav>
-</header>
+    <body>
+        <a class="skip-link" href="#main">Pular para o conteúdo</a>
 
-<main id="main">
-<section class="hero container">
-<div class="hero-copy">
-<div class="availability"><span class="status-dot"></span><span data-pt="ABERTO A OPORTUNIDADES" data-en="OPEN TO OPPORTUNITIES">ABERTO A OPORTUNIDADES</span></div>
-<div class="eyebrow">HELLO_WORLD.exe</div>
-<h1><span class="line" data-pt="Olá, eu sou" data-en="Hi, I'm">Olá, eu sou</span><span class="line gradient-text">João Guilherme.</span><span class="line" data-pt="Desenvolvedor em evolução." data-en="Developer in progress.">Desenvolvedor em evolução.</span></h1>
-<p class="hero-lead" data-pt="Estudante de Engenharia de Software e desenvolvedor web. Transformo problemas em soluções digitais funcionais, com atenção à arquitetura, experiência do usuário e qualidade do código." data-en="Software Engineering student and web developer. I turn problems into functional digital solutions, with attention to architecture, user experience and code quality.">Estudante de Engenharia de Software e desenvolvedor web. Transformo problemas em soluções digitais funcionais, com atenção à arquitetura, experiência do usuário e qualidade do código.</p>
-<div class="hero-actions"><a class="btn" href="#projects"><span data-pt="Explorar projetos" data-en="Explore projects">Explorar projetos</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a><a class="btn btn-outline" href="https://raw.githubusercontent.com/jgdomingos/portfolio/master/assets/docs/Joao%20Guilherme%20Silva%20Domingos.pdf" target="_blank" rel="noreferrer"><i class="fa-solid fa-file-arrow-down"></i><span data-pt="Baixar currículo" data-en="Download résumé">Baixar currículo</span></a></div>
-<div class="hero-meta"><span><i class="fa-solid fa-location-dot"></i> São Paulo, BR</span><span><i class="fa-solid fa-code"></i> Full-stack mindset</span><span><i class="fa-solid fa-globe"></i> PT / EN</span></div>
-</div>
-<div class="hero-visual"><div class="hero-glow"></div><span class="hero-index">PORTFOLIO / 2026 — 01</span>
-<div class="portrait-frame"><img src="https://raw.githubusercontent.com/jgdomingos/portfolio/master/assets/images/Joao.png" alt="Retrato de João Guilherme"></div>
-<div class="terminal-card"><div class="terminal-top"><i></i><i></i><i></i></div><div><span class="prompt">joao@portfolio:~$</span> whoami</div><strong>Software Engineering Student</strong><div><span class="prompt">joao@portfolio:~$</span> <span class="value">building_the_future</span><span class="prompt">_</span></div></div>
-</div>
-</section>
+        <header class="site-header">
 
-<section id="about"><div class="container about-grid">
-<div class="about-copy reveal"><div class="section-head"><div class="section-kicker">01 / ABOUT_ME</div><h2 class="section-title"><span class="brackets">&lt;</span> Sobre <span class="gradient-text">mim</span> <span class="brackets">/&gt;</span></h2></div>
-<h3 data-pt="Tecnologia, curiosidade e construção contínua." data-en="Technology, curiosity and continuous building.">Tecnologia, curiosidade e construção contínua.</h3>
-<p data-pt="Sou estudante de Engenharia de Software e desenvolvedor movido pela curiosidade e pelo desejo de transformar ideias em soluções reais. Para mim, programar vai além de escrever código: é resolver problemas, explorar possibilidades e construir coisas que realmente funcionam." data-en="I'm a Software Engineering student and developer driven by curiosity and the desire to turn ideas into real solutions. To me, programming goes beyond writing code: it's about solving problems, exploring possibilities and building things that work.">Sou estudante de Engenharia de Software e desenvolvedor movido pela curiosidade e pelo desejo de transformar ideias em soluções reais. Para mim, programar vai além de escrever código: é resolver problemas, explorar possibilidades e construir coisas que realmente funcionam.</p>
-<p data-pt="Tenho buscado ampliar minha experiência por meio de projetos acadêmicos e pessoais, trabalhando com desenvolvimento web, bancos de dados, documentação, levantamento de requisitos e metodologias ágeis. Meu objetivo é crescer em equipes de tecnologia, contribuir com soluções bem estruturadas e continuar aprendendo na prática." data-en="I've been expanding my experience through academic and personal projects, working with web development, databases, documentation, requirements gathering and agile methods. My goal is to grow within technology teams, contribute to well-structured solutions and keep learning through practice.">Tenho buscado ampliar minha experiência por meio de projetos acadêmicos e pessoais, trabalhando com desenvolvimento web, bancos de dados, documentação, levantamento de requisitos e metodologias ágeis. Meu objetivo é crescer em equipes de tecnologia, contribuir com soluções bem estruturadas e continuar aprendendo na prática.</p>
-<div class="hero-actions"><a class="btn btn-outline" href="experiences.html"><span data-pt="Minha trajetória" data-en="My background">Minha trajetória</span><i class="fa-solid fa-arrow-right"></i></a></div>
-<div class="code-strip"><span class="comment">// developer.profile</span><br><span class="key">const</span> focus = [<span class="value">"Problem solving"</span>, <span class="value">"Clean code"</span>, <span class="value">"Continuous learning"</span>];</div>
-</div>
-<div class="stats-grid reveal">
-<div class="stat-card"><strong>02</strong><span>Experiências profissionais</span></div><div class="stat-card"><strong>02+</strong><span>Projetos em destaque</span></div><div class="stat-card"><strong>06</strong><span>Certificados registrados</span></div><div class="stat-card"><strong>PT/EN</strong><span>Idiomas do portfólio</span></div>
-</div></div></section>
+            <nav class="nav container">
+                <a class="brand" href="index.html">
+                    <span class="brackets">&lt;</span>JG<span class="brackets">/&gt;</span><small>software.dev</small>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#about" data-pt="Sobre" data-en="About">Sobre</a></li>
+                    <li><a href="#skills" data-pt="Stack" data-en="Stack">Stack</a></li>
+                    <li><a href="#projects" data-pt="Projetos" data-en="Projects">Projetos</a></li>
+                    <li><a href="experiences.html" data-pt="Experiência" data-en="Experience">Experiência</a></li>
+                    <li><a href="educations.html" data-pt="Formação" data-en="Education">Formação</a></li>
+                    <li><a href="#contact" data-pt="Contato" data-en="Contact">Contato</a></li>
+                </ul>
 
-<section id="skills"><div class="container"><div class="section-head reveal"><div class="section-kicker">02 / TECH_STACK</div><h2 class="section-title"><span class="brackets">&lt;</span> Ferramentas que <span class="gradient-text">utilizo</span> <span class="brackets">/&gt;</span></h2><p class="section-description">Tecnologias e ferramentas presentes nos meus estudos e projetos. A stack evolui conforme novos desafios aparecem.</p></div>
-<div class="skills-grid">
-<article class="skill-card reveal"><h3><i class="fa-solid fa-window-maximize"></i> Front-end</h3><div class="skill-list"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Next.js</span></div></article>
-<article class="skill-card reveal"><h3><i class="fa-solid fa-server"></i> Back-end</h3><div class="skill-list"><span class="tag">Java</span><span class="tag">Python</span><span class="tag">Node.js</span><span class="tag">REST APIs</span></div></article>
-<article class="skill-card reveal"><h3><i class="fa-solid fa-database"></i> Database</h3><div class="skill-list"><span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">Supabase</span></div></article>
-<article class="skill-card reveal"><h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools & Methods</h3><div class="skill-list"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span><span class="tag">UML</span><span class="tag">Scrum</span><span class="tag">Power BI</span></div></article>
-</div></div></section>
+                <div class="nav-actions">
+                    <button class="lang-toggle" type="button" aria-label="Alterar idioma">PT</button>
+                    <a class="icon-link" href="https://github.com/jgdomingos" target="_blank" rel="noreferrer" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="icon-link" href="https://www.linkedin.com/in/jgsdomingos/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+                </div>
 
-<section id="projects"><div class="container"><div class="section-head reveal"><div class="section-kicker">03 / SELECTED_WORK</div><h2 class="section-title"><span class="brackets">&lt;</span> Projetos em <span class="gradient-text">destaque</span> <span class="brackets">/&gt;</span></h2><p class="section-description">Projetos que representam minha evolução técnica, colaboração em equipe e capacidade de transformar requisitos em soluções.</p></div>
-<div class="projects-grid">
-<article class="project-card reveal"><div class="project-preview"><div class="preview-ui"><div class="bar"></div><div class="row"><div class="block"></div><div class="block"></div><div class="block"></div></div><div class="row"><div class="block"></div><div class="block"></div></div></div></div><div class="project-body"><div class="project-top"><h3>FretApp</h3><span class="project-type">Academic / Team</span></div><p>Projeto colaborativo de desenvolvimento de aplicação. Minha contribuição envolveu documentação, modelagem UML, levantamento de requisitos e organização do trabalho com Scrum e planejamento de sprints.</p><div class="skill-list"><span class="tag">UML</span><span class="tag">Requirements</span><span class="tag">Scrum</span><span class="tag">Documentation</span></div><div class="project-footer"><span class="project-type">Trabalho em equipe</span><div class="project-links"><a href="https://github.com/GuilhermeHCRodrigues/FretApp" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> Repositório</a></div></div></div></article>
-<article class="project-card reveal"><div class="project-preview"><img src="https://raw.githubusercontent.com/jgdomingos/portfolio/master/assets/images/Projects/Estoque.jpg" alt="Prévia do sistema de controle de estoque"></div><div class="project-body"><div class="project-top"><h3>Controle de estoque</h3><span class="project-type">Desktop / CRUD</span></div><p>Sistema CRUD para gerenciamento de estoque, aplicando conceitos de Programação Orientada a Objetos, persistência de dados e organização de funcionalidades.</p><div class="skill-list"><span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span></div><div class="project-footer"><span class="project-type">Projeto individual</span><div class="project-links"><a href="https://github.com/jgdomingos/loja-pecas-java" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i> Repositório</a></div></div></div></article>
-</div></div></section>
+            </nav>
 
-<section id="experience"><div class="container"><div class="section-head reveal"><div class="section-kicker">04 / EXPERIENCE_LOG</div><h2 class="section-title"><span class="brackets">&lt;</span> Experiência <span class="gradient-text">profissional</span> <span class="brackets">/&gt;</span></h2><p class="section-description">Experiências que contribuíram para minha visão analítica, organização e capacidade de trabalhar com processos e dados.</p></div>
-<div class="timeline">
-<article class="timeline-item reveal"><div class="timeline-meta"><span>02/2026 — Atual</span><span>·</span><span>PCP / Dados</span></div><h3>Estagiário de PCP</h3><h4>Paramount Textiles</h4><p>Atuação em planejamento e controle da produção, com foco em análise de dados e indicadores de desempenho. Desenvolvimento de dashboards no Power BI para monitorar consumo de materiais, peso médio dos fios e variações da produção. Extração, processamento e validação de dados do ERP TOTVS para apoiar a confiabilidade das informações e a tomada de decisões.</p></article>
-<article class="timeline-item reveal"><div class="timeline-meta"><span>08/2025 — 02/2026</span><span>·</span><span>Operações</span></div><h3>Jovem Aprendiz</h3><h4>PedraForte Quarry</h4><p>Atuação no controle de estoque e organização do almoxarifado utilizando o ERP Minerion SGA. Padronização de registros, correção de códigos duplicados, melhoria de procedimentos de requisição e criação de planilhas de acompanhamento. Apoio à conciliação entre estoque físico e registros do sistema.</p></article>
-</div><div style="margin-top:24px"><a class="btn btn-outline" href="experiences.html">Ver detalhes da experiência <i class="fa-solid fa-arrow-right"></i></a></div></div></section>
+        </header>
 
-<section id="education"><div class="container"><div class="section-head reveal"><div class="section-kicker">05 / LEARNING_PATH</div><h2 class="section-title"><span class="brackets">&lt;</span> Formação & <span class="gradient-text">aprendizado</span> <span class="brackets">/&gt;</span></h2><p class="section-description">Formação acadêmica e estudos complementares que sustentam minha evolução na área de tecnologia.</p></div>
-<div class="education-grid">
-<article class="education-card reveal"><h3>Universidade de Mogi das Cruzes</h3><h4>Engenharia de Software</h4><p>Formação em desenvolvimento e manutenção de sistemas, programação, bancos de dados, engenharia de software e gerenciamento de projetos.</p><a href="educations.html#umc">Ver formação e certificados →</a></article>
-<article class="education-card reveal"><h3>OneBitCode</h3><h4>Desenvolvimento Full Stack</h4><p>Trilha de desenvolvimento web com foco em JavaScript, TypeScript, React, Next.js, Node.js e PostgreSQL.</p><a href="educations.html#onebitcode">Ver formação e certificados →</a></article>
-<article class="education-card reveal"><h3>Discover School</h3><h4>Inglês</h4><p>Desenvolvimento das habilidades de comunicação, compreensão, leitura e escrita em inglês.</p><a href="educations.html#discover">Ver formação →</a></article>
-<article class="education-card reveal"><h3>Fluency Academy</h3><h4>Inglês</h4><p>Estudo contínuo de gramática, pronúncia, compreensão, vocabulário e conversação.</p><a href="educations.html#fluency">Ver formação →</a></article>
-</div></div></section>
+        <main id="main">
 
-<section id="contact"><div class="container"><div class="contact-panel reveal"><div><div class="section-kicker">06 / CONTACT.SYS</div><h3>Vamos conversar sobre tecnologia e <span class="gradient-text">oportunidades?</span></h3><p>Estou aberto a oportunidades profissionais, projetos colaborativos e conversas sobre desenvolvimento de software e web.</p><a class="btn" href="mailto:jgsdomingoss@gmail.com"><i class="fa-solid fa-paper-plane"></i> Entrar em contato</a></div><div class="contact-list">
-<div class="contact-item"><i class="fa-solid fa-envelope"></i><div><small>E-mail</small><a href="mailto:jgsdomingoss@gmail.com">jgsdomingoss@gmail.com</a></div></div>
-<div class="contact-item"><i class="fa-brands fa-linkedin-in"></i><div><small>LinkedIn</small><a href="https://www.linkedin.com/in/jgsdomingos/" target="_blank" rel="noreferrer">linkedin.com/in/jgsdomingos</a></div></div>
-<div class="contact-item"><i class="fa-brands fa-github"></i><div><small>GitHub</small><a href="https://github.com/jgdomingos" target="_blank" rel="noreferrer">github.com/jgdomingos</a></div></div>
-<div class="contact-item"><i class="fa-solid fa-location-dot"></i><div><small>Localização</small><a>São Paulo — Brasil · Remoto / Híbrido / Presencial</a></div></div>
-</div></div></div></section>
-</main>
-<footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brackets">&lt;</span>JG<span class="brackets">/&gt;</span></a><span>© <span data-year></span> João Guilherme Silva Domingos</span><span class="footer-code">built with HTML · CSS · JavaScript</span></div></footer>
-<script src="assets/js/main.js"></script>
-</body></html>
+            <section class="hero container">
+                <div class="hero-copy">
+                    <div class="availability">
+                        <span class="status-dot"></span><span data-pt="ABERTO A OPORTUNIDADES" data-en="OPEN TO OPPORTUNITIES">ABERTO A OPORTUNIDADES</span>
+                    </div>
+                    <div class="eyebrow">
+                        HELLO_WORLD.exe
+                    </div>
+                    <h1>
+                        <span class="line" data-pt="Olá, eu sou" data-en="Hi, I'm">Olá, eu sou</span><span class="line gradient-text">João Guilherme.</span><span class="line" data-pt="Desenvolvedor em evolução." data-en="Developer in progress.">Desenvolvedor em evolução.</span>
+                    </h1>
+                    <p class="hero-lead" data-pt="Estudante de Engenharia de Software e desenvolvedor web. Transformo problemas em soluções digitais funcionais, com atenção à arquitetura, experiência do usuário e qualidade do código." data-en="Software Engineering student and web developer. I turn problems into functional digital solutions, with attention to architecture, user experience and code quality.">
+                        Estudante de Engenharia de Software e desenvolvedor web. Transformo problemas em soluções digitais funcionais, com atenção à arquitetura, experiência do usuário e qualidade do código.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="btn" href="#projects">
+                            <span data-pt="Explorar projetos" data-en="Explore projects">Explorar projetos</span><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                        <a class="btn btn-outline" href="https://raw.githubusercontent.com/jgdomingos/portfolio/master/assets/docs/Joao%20Guilherme%20Silva%20Domingos.pdf" target="_blank" rel="noreferrer">
+                            <i class="fa-solid fa-file-arrow-down"></i><span data-pt="Baixar currículo" data-en="Download résumé">Baixar currículo</span>
+                        </a>
+                    </div>
+                    <div class="hero-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> São Paulo, BR</span>
+                        <span><i class="fa-solid fa-code"></i> Full-stack mindset</span>
+                        <span><i class="fa-solid fa-globe"></i> PT / EN</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-glow"></div>
+                    <span class="hero-index">PORTFOLIO / 2026 — 01</span>
+                    
+                    <div class="portrait-frame">
+                        <img src="https://raw.githubusercontent.com/jgdomingos/portfolio/master/assets/images/Joao.png" alt="Retrato de João Guilherme">
+                    </div>
+
+                    <div class="terminal-card">
+                        <div class="terminal-top">
+                            <i></i><i></i><i></i>
+                        </div>
+                        <div>
+                            <span class="prompt">joao@portfolio:~$</span> whoami
+                        </div>
+                        <strong>Software Engineering Student</strong>
+                        <div>
+                            <span class="prompt">joao@portfolio:~$</span><span class="value">building_the_future</span><span class="prompt">_</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="about">
+                <div class="container about-grid">
+                    <div class="about-copy reveal">
+                        <div class="section-head">
+                            <div class="section-kicker">
+                                01 / ABOUT_ME
+                            </div>
+                            <h2 class="section-title">
+                                <span class="brackets">&lt;</span> Sobre <span class="gradient-text">mim</span><span class="brackets">/&gt;</span>
+                            </h2>
+                        </div>
+                        <h3 data-pt="Tecnologia, curiosidade e construção contínua." data-en="Technology, curiosity and continuous building.">
+                            Tecnologia, curiosidade e construção contínua.
+                        </h3>
+                        <p data-pt="Sou estudante de Engenharia de Software e desenvolvedor movido pela curiosidade e pelo desejo de transformar ideias em soluções reais. Para mim, programar vai além de escrever código: é resolver problemas, explorar possibilidades e construir coisas que realmente funcionam." data-en="I'm a Software Engineering student and developer driven by curiosity and the desire to turn ideas into real solutions. To me, programming goes beyond writing code: it's about solving problems, exploring possibilities and building things that work.">
+                            Sou estudante de Engenharia de Software e desenvolvedor movido pela curiosidade e pelo desejo de transformar ideias em soluções reais. Para mim, programar vai além de escrever código: é resolver problemas, explorar possibilidades e construir coisas que realmente funcionam.
+                        </p>
+                        <p data-pt="Tenho buscado ampliar minha experiência por meio de projetos acadêmicos e pessoais, trabalhando com desenvolvimento web, bancos de dados, documentação, levantamento de requisitos e metodologias ágeis. Meu objetivo é crescer em equipes de tecnologia, contribuir com soluções bem estruturadas e continuar aprendendo na prática." data-en="I've been expanding my experience through academic and personal projects, working with web development, databases, documentation, requirements gathering and agile methods. My goal is to grow within technology teams, contribute to well-structured solutions and keep learning through practice.">
+                            Tenho buscado ampliar minha experiência por meio de projetos acadêmicos e pessoais, trabalhando com desenvolvimento web, bancos de dados, documentação, levantamento de requisitos e metodologias ágeis. Meu objetivo é crescer em equipes de tecnologia, contribuir com soluções bem estruturadas e continuar aprendendo na prática.
+                        </p>
+                        <div class="hero-actions">
+                            <a class="btn btn-outline" href="experiences.html">
+                                <span data-pt="Minha trajetória" data-en="My background">Minha trajetória</span><i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="code-strip">
+                            <span class="comment">// developer.profile</span><br><span class="key">const</span> focus = [<span class="value">"Problem solving"</span>, <span class="value">"Clean code"</span>, <span class="value">"Continuous learning"</span>];
+                        </div>
+                    </div>
+                    <div class="stats-grid reveal">
+                        <div class="stat-card">
+                            <strong>02</strong><span>Experiências profissionais</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>02+</strong><span>Projetos em destaque</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>06</strong><span>Certificados registrados</span>
+                        </div>
+                        <div class="stat-card">
+                            <strong>PT/EN</strong><span>Idiomas do portfólio</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <div class="container">
+                    <div class="section-head reveal">
+                        <div class="section-kicker">
+                            02 / TECH_STACK
+                        </div>
+                        <h2 class="section-title">
+                            <span class="brackets">&lt;</span> Ferramentas que <span class="gradient-text">utilizo</span><span class="brackets">/&gt;</span>
+                        </h2>
+                        <p class="section-description">
+                            Tecnologias e ferramentas presentes nos meus estudos e projetos. A stack evolui conforme novos desafios aparecem.
+                        </p>
+                    </div>
+                    <div class="skills-grid">
+                        <article class="skill-card reveal">
+                            <h3>
+                                <i class="fa-solid fa-window-maximize"></i> Front-end
+                            </h3>
+                            <div class="skill-list">
+                                <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Next.js</span>
+                            </div>
+                        </article>
+                        <article class="skill-card reveal">
+                            <h3>
+                                <i class="fa-solid fa-server"></i> Back-end
+                            </h3>
+                            <div class="skill-list">
+                                <span class="tag">Java</span><span class="tag">Python</span><span class="tag">Node.js</span><span class="tag">REST APIs</span>
+                            </div>
+                        </article>
+                        <article class="skill-card reveal">
+                            <h3>
+                                <i class="fa-solid fa-database"></i> Database
+                            </h3>
+                            <div class="skill-list">
+                                <span class="tag">MySQL</span><span class="tag">PostgreSQL</span><span class="tag">Supabase</span>
+                            </div>
+                        </article>
+                        <article class="skill-card reveal">
+                            <h3>
+                                <i class="fa-solid fa-screwdriver-wrench"></i> Tools & Methods
+                            </h3>
+                            <div class="skill-list">
+                                <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span><span class="tag">UML</span><span class="tag">Scrum</span><span class="tag">Power BI</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="container">
+                    <div class="section-head reveal">
+                        <div class="section-kicker">
+                            03 / SELECTED_WORK
+                        </div>
+                        <h2 class="section-title">
+                            <span class="brackets">&lt;</span> Projetos em <span class="gradient-text">destaque</span><span class="brackets">/&gt;</span>
+                        </h2>
+                        <p class="section-description">
+                            Projetos que representam minha evolução técnica, colaboração em equipe e capacidade de transformar requisitos em soluções.
+                        </p>
+                    </div>
+                    <div class="projects-grid">
+                        <article class="project-card reveal">
+                            <div class="project-preview">
+                                <div class="preview-ui">
+                                    <div class="bar">
+                                    </div>
+                                    <div class="row">
+                                        <div class="block">
+                                        </div>
+                                        <div class="block">
+                                        </div>
+                                        <div class="block">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="block">
+                                        </div>
+                                        <div class="block">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <div class="project-top">
+                                    <h3>
+                                        FretApp
+                                    </h3>
+                                    <span class="project-type">Academic / Team</span>
+                                </div>
+                                <p>
+                                    Projeto colaborativo de desenvolvimento de aplicação. Minha contribuição envolveu documentação, modelagem UML, levantamento de requisitos e organização do trabalho com Scrum e planejamento de sprints.
+                                </p>
+                                <div class="skill-list">
+                                    <span class="tag">UML</span><span class="tag">Requirements</span><span class="tag">Scrum</span><span class="tag">Documentation</span>
+                                </div>
+                                <div class="project-footer">
+                                    <span class="project-type">Trabalho em equipe</span>
+                                    <div class="project-links">
+                                        <a href="https://github.com/GuilhermeHCRodrigues/FretApp" target="_blank" rel="noreferrer">
+                                            <i class="fa-brands fa-github"></i> Repositório
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="project-card reveal">
+                            <div class="project-preview">
+                                <img src="https://raw.githubusercontent.com/jgdomingos/portfolio/master/assets/images/Projects/Estoque.jpg" alt="Prévia do sistema de controle de estoque">
+                            </div>
+                            <div class="project-body">
+                                <div class="project-top">
+                                    <h3>
+                                        Controle de estoque
+                                    </h3>
+                                    <span class="project-type">Desktop / CRUD</span>
+                                </div>
+                                <p>
+                                    Sistema CRUD para gerenciamento de estoque, aplicando conceitos de Programação Orientada a Objetos, persistência de dados e organização de funcionalidades.
+                                </p>
+                                <div class="skill-list">
+                                    <span class="tag">Java</span><span class="tag">MySQL</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span>
+                                </div>
+                                <div class="project-footer">
+                                    <span class="project-type">Projeto individual</span>
+                                    <div class="project-links">
+                                        <a href="https://github.com/jgdomingos/loja-pecas-java" target="_blank" rel="noreferrer">
+                                            <i class="fa-brands fa-github"></i> Repositório
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section id="experience">
+                <div class="container">
+                    <div class="section-head reveal">
+                        <div class="section-kicker">
+                            04 / EXPERIENCE_LOG
+                        </div>
+                        <h2 class="section-title">
+                            <span class="brackets">&lt;</span> Experiência <span class="gradient-text">profissional</span><span class="brackets">/&gt;</span>
+                        </h2>
+                        <p class="section-description">
+                            Experiências que contribuíram para minha visão analítica, organização e capacidade de trabalhar com processos e dados.
+                        </p>
+                    </div>
+                    <div class="timeline">
+                        <article class="timeline-item reveal">
+                            <div class="timeline-meta">
+                                <span>02/2026 — Atual</span><span>·</span><span>PCP / Dados</span>
+                            </div>
+                            <h3>
+                                Estagiário de PCP
+                            </h3>
+                            <h4>
+                                Paramount Textiles
+                            </h4>
+                            <p>
+                                Atuação em planejamento e controle da produção, com foco em análise de dados e indicadores de desempenho. Desenvolvimento de dashboards no Power BI para monitorar consumo de materiais, peso médio dos fios e variações da produção. Extração, processamento e validação de dados do ERP TOTVS para apoiar a confiabilidade das informações e a tomada de decisões.
+                            </p>
+                        </article>
+                        <article class="timeline-item reveal">
+                            <div class="timeline-meta">
+                                <span>08/2025 — 02/2026</span><span>·</span><span>Operações</span>
+                            </div>
+                            <h3>
+                                Jovem Aprendiz
+                            </h3>
+                            <h4>
+                                PedraForte Quarry
+                            </h4>
+                            <p>
+                                Atuação no controle de estoque e organização do almoxarifado utilizando o ERP Minerion SGA. Padronização de registros, correção de códigos duplicados, melhoria de procedimentos de requisição e criação de planilhas de acompanhamento. Apoio à conciliação entre estoque físico e registros do sistema.
+                            </p>
+                        </article>
+                    </div>
+                    <div style="margin-top:24px">
+                        <a class="btn btn-outline" href="experiences.html">
+                            Ver detalhes da experiência <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="education">
+                <div class="container">
+                    <div class="section-head reveal">
+                        <div class="section-kicker">
+                            05 / LEARNING_PATH
+                        </div>
+                        <h2 class="section-title">
+                            <span class="brackets">&lt;</span> Formação & <span class="gradient-text">aprendizado</span><span class="brackets">/&gt;</span>
+                        </h2>
+                        <p class="section-description">
+                            Formação acadêmica e estudos complementares que sustentam minha evolução na área de tecnologia.
+                        </p>
+                    </div>
+                    <div class="education-grid">
+                        <article class="education-card reveal">
+                            <h3>
+                                Universidade de Mogi das Cruzes
+                            </h3>
+                            <h4>
+                                Engenharia de Software
+                            </h4>
+                            <p>
+                                Formação em desenvolvimento e manutenção de sistemas, programação, bancos de dados, engenharia de software e gerenciamento de projetos.
+                            </p>
+                            <a href="educations.html#umc">
+                                Ver formação e certificados →
+                            </a>
+                        </article>
+                        <article class="education-card reveal">
+                            <h3>
+                                OneBitCode
+                            </h3>
+                            <h4>
+                                Desenvolvimento Full Stack
+                            </h4>
+                            <p>
+                                Trilha de desenvolvimento web com foco em JavaScript, TypeScript, React, Next.js, Node.js e PostgreSQL.
+                            </p>
+                            <a href="educations.html#onebitcode">
+                                Ver formação e certificados →
+                            </a>
+                        </article>
+                        <article class="education-card reveal">
+                            <h3>
+                                Discover School
+                            </h3>
+                            <h4>
+                                Inglês
+                            </h4>
+                            <p>
+                                Desenvolvimento das habilidades de comunicação, compreensão, leitura e escrita em inglês.
+                            </p>
+                            <a href="educations.html#discover">
+                                Ver formação →
+                            </a>
+                        </article>
+                        <article class="education-card reveal">
+                            <h3>
+                                Fluency Academy
+                            </h3>
+                            <h4>
+                                Inglês
+                            </h4>
+                            <p>
+                                Estudo contínuo de gramática, pronúncia, compreensão, vocabulário e conversação.
+                            </p>
+                            <a href="educations.html#fluency">
+                                Ver formação →
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="container">
+                    <div class="contact-panel reveal">
+                        <div>
+                            <div class="section-kicker">
+                                06 / CONTACT.SYS
+                            </div>
+                            <h3>
+                                Vamos conversar sobre tecnologia e <span class="gradient-text">oportunidades?</span>
+                            </h3>
+                            <p>
+                                Estou aberto a oportunidades profissionais, projetos colaborativos e conversas sobre desenvolvimento de software e web.
+                            </p>
+                            <a class="btn" href="mailto:jgsdomingoss@gmail.com">
+                                <i class="fa-solid fa-paper-plane"></i> Entrar em contato
+                            </a>
+                        </div>
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <small>E-mail</small>
+                                    <a href="mailto:jgsdomingoss@gmail.com">
+                                        jgsdomingoss@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <div>
+                                    <small>LinkedIn</small>
+                                    <a href="https://www.linkedin.com/in/jgsdomingos/" target="_blank" rel="noreferrer">
+                                        linkedin.com/in/jgsdomingos
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-brands fa-github"></i>
+                                <div>
+                                    <small>GitHub</small>
+                                    <a href="https://github.com/jgdomingos" target="_blank" rel="noreferrer">
+                                        github.com/jgdomingos
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <small>Localização</small>
+                                    <a>
+                                        São Paulo — Brasil · Remoto / Híbrido / Presencial
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <a class="brand" href="index.html">
+                    <span class="brackets">&lt;</span>JG<span class="brackets">/&gt;</span>
+                </a>
+                <span>© <span data-year></span> João Guilherme Silva Domingos</span><span class="footer-code">built with HTML · CSS · JavaScript</span>
+            </div>
+        </footer>
+        <script src="assets/js/main.js">
+        </script>
+    </body>
+</html>
